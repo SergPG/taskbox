@@ -8,7 +8,9 @@ on: push
 jobs:
   test:
     # Operating System
-    runs-on: linux
+    # runs-on: ubuntu-latest
+    #runs-on: linux
+
     # Job steps
     steps:
       - uses: actions/checkout@v3
